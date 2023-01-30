@@ -5,17 +5,21 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@soluto-private/mx-asurion-ui-react": "file:../../asurion-ui/asurion-ui-react",
+    "@soluto-private/mx-asurion-ui-react": "file:../asurion-ui/asurion-ui-react",
+    "babel-plugin-styled-components": "^2.0.7",
     "chalk": "4.1.2",
     "dotenv": "^16.0.3",
     "gatsby": "^5.4.2",
-    "gatsby-plugin-image": "^3.4.0",
+    "gatsby-plugin-image": "^3.5.0",
     "gatsby-plugin-manifest": "^5.4.0",
     "gatsby-plugin-sharp": "^5.4.0",
+    "gatsby-plugin-styled-components": "^6.5.0",
+    "gatsby-source-contentful": "^8.5.0",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-sharp": "^5.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
@@ -33,7 +37,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "update": "node ./scripts/update-aui"
+    "update-aui": "node ./scripts/update-aui"
   },
   "repository": {
     "type": "git",

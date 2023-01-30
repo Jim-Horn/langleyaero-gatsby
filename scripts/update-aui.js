@@ -45,7 +45,7 @@ try {
     err(`Dependency not found`);
 }
 
-console.log(chalk.green("Reinstall AsurionUI"));
+log("Reinstall AsurionUI");
 executeCommand(
     BUILD_LOCAL_AUI
         ? `yarn add "file:${RELATIVE_PATH_TO_AUI}asurion-ui-react" ${silent}`

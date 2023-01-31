@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 
-This repo provides provides a GatsbyJS environment for creating and/or testing Asurion UI components. It also includes Styled Components, and the ability to consume Contentful content. Additionally, it may be useful for reviewing and testing pull requests made against Asurion UI
+This repo provides provides a [GatsbyJS](Gatsby-README.md) environment for creating and/or testing Asurion UI components. It also includes Styled Components, and the ability to consume Contentful content. Additionally, it may be useful for reviewing and testing pull requests made against Asurion UI
 
 ## 🛠️ Setup
 

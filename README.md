@@ -23,3 +23,7 @@ Copy `example.env` to `.env`, then in that file update the following:
 ### Updating AUI
 
 To install or reinstall Asurion UI, run `yarn update-aui`. This will uninstall the current version (if already installed), clean Gatsby's file cache, and install either the local copy of AUI, or the latest release, depending on the value of `BUILD_LOCAL_AUI` (`true`/`false`)
+
+## 🪧 More information
+
+For more information on Contentful and GatsbyJS, [check out this document](contentful-gatsby.md)

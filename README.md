@@ -1,8 +1,8 @@
-# 🧑‍💻 Gatsby / Contentful / AsurionUI demo/dev environment
+# 🧑‍💻 Gatsby / Contentful / AsurionUI demo / dev environment
 
 ## 🔍 Overview
 
-This repo provides provides a [GatsbyJS](Gatsby-README.md) environment for creating and/or testing Asurion UI components. It also includes Styled Components, and the ability to consume Contentful content. Additionally, it may be useful for reviewing and testing pull requests made against Asurion UI
+This repo provides provides a [GatsbyJS](./docs/Gatsby-README.md) environment for creating and/or testing Asurion UI components. It also includes Styled Components, and the ability to consume Contentful content. Additionally, it may be useful for reviewing and testing pull requests made against Asurion UI
 
 ## 🛠️ Setup
 
@@ -24,6 +24,6 @@ Copy `example.env` to `.env`, then in that file update the following:
 
 To install or reinstall Asurion UI, run `yarn update-aui`. This will uninstall the current version (if already installed), clean Gatsby's file cache, and install either the local copy of AUI, or the latest release, depending on the value of `BUILD_LOCAL_AUI` (`true`/`false`)
 
-## 🪧 More information
+## 🔬 More information
 
-For more information on Contentful and GatsbyJS, [check out this document](contentful-gatsby.md)
+For more information on Contentful and GatsbyJS, [check out this document](./docs/contentful-gatsby.md)

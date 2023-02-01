@@ -1966,7 +1966,7 @@
     idb-keyval "^6.2.0"
 
 "@soluto-private/mx-asurion-ui-react@file:../asurion-ui/asurion-ui-react":
-  version "3.16.9"
+  version "3.16.10"
   dependencies:
     "@hassanmojab/react-modern-calendar-datepicker" "^3.1.6"
     "@soluto-private/aui-external-svg-loader" "*"

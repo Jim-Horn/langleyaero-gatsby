@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const ContentfulData = ({ data }) => (
     <Layout>
-        <h1>{data.allContentfulPost.edges[1].node.name}</h1>
+        <h1>{data.allContentfulPost.edges[0].node.name}</h1>
         <p>Contentful data:</p>
         <pre>{JSON.stringify(data, null, 2)}</pre>
     </Layout>

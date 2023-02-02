@@ -38,18 +38,12 @@ const plugins = [
   });
 
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
     title: `Langley Aero Structures`,
-    description: ``,
+    description: `Transport Canada Approved Maintenance Organization Approval #88-04`,
     author: `Jim Horn`,
     siteUrl: `https://langleyaero.com/`,
   },

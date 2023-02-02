@@ -8,6 +8,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import styled from 'styled-components';
+import LinksList from './links';
 
 import Header from './header';
 import './layout.css';
@@ -40,7 +41,8 @@ const Layout = ({ children }) => {
       <MainDiv>
         <main>{children}</main>
         <StyledFooter>
-          © {new Date().getFullYear()} &middot; Built with{' '}
+          <LinksList />
+          <br />© {new Date().getFullYear()} &middot; Built with{' '}
           <a href="https://www.gatsbyjs.com">Gatsby</a> |{' '}
           <Link to="/sitemap/">Site Map</Link>
         </StyledFooter>

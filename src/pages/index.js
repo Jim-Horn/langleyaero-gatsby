@@ -1,139 +1,68 @@
-import * as React from "react";
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+import * as React from 'react';
 
-import Layout from "../components/layout";
-import Seo from "../components/seo";
-import * as styles from "../components/index.module.css";
-import CenteredDiv from "../components/CenteredDiv";
-
-import styled from "styled-components";
-
-const links = [
-    {
-        text: "Tutorial",
-        url: "https://www.gatsbyjs.com/docs/tutorial",
-        description:
-            "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    },
-    {
-        text: "Examples",
-        url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-        description:
-            "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-    },
-    {
-        text: "Plugin Library",
-        url: "https://www.gatsbyjs.com/plugins",
-        description:
-            "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    },
-    {
-        text: "Build and Host",
-        url: "https://www.gatsbyjs.com/cloud",
-        description:
-            "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    },
-];
-
-const samplePageLinks = [
-    { text: "TypeScript", url: "using-typescript" },
-    { text: "Server Side Rendering", url: "using-ssr" },
-    { text: "Deferred Static Generation", url: "using-dsg" },
-    { text: "Asurion UI", url: "aui" },
-];
-
-const moreLinks = [
-    { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
-    {
-        text: "Documentation",
-        url: "https://gatsbyjs.com/docs/",
-    },
-    {
-        text: "Starters",
-        url: "https://gatsbyjs.com/starters/",
-    },
-    {
-        text: "Showcase",
-        url: "https://gatsbyjs.com/showcase/",
-    },
-    {
-        text: "Contributing",
-        url: "https://www.gatsbyjs.com/contributing/",
-    },
-    { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-];
-
-const utmParameters = ``;
-
-const IntroP = styled.p`
-    max-width: none;
-    line-height: var(--line-height-loose);
-`;
-
-const StyledList = styled.ul`
-    display: grid;
-    margin: 0;
-    /* https://css-tricks.com/responsive-layouts-fewer-media-queries/ */
-    --w: 280px;
-    --n: 2;
-    gap: var(--size-gap);
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(max(var(--w), 100%/ (var(--n) + 1) + 0.1%), 1fr)
-    );
-    margin-bottom: var(--size-gap);
-    margin-top: var(--size-gap);
-`;
+import Layout from '../components/layout';
+import Seo from '../components/seo';
 
 const IndexPage = () => (
-    <Layout>
-        <CenteredDiv>
-            <StaticImage
-                src="../images/example.png"
-                loading="eager"
-                width={64}
-                quality={95}
-                formats={["auto", "webp", "avif"]}
-                alt=""
-                style={{ marginBottom: `var(--space-3)` }}
-            />
-            <h1>
-                Welcome to <b>Gatsby!</b>
-            </h1>
-            <IntroP>
-                <b>Example pages:</b>{" "}
-                {samplePageLinks.map((link, i) => (
-                    <React.Fragment key={link.url}>
-                        <Link to={link.url}>{link.text}</Link>
-                        {i !== samplePageLinks.length - 1 && <> · </>}
-                    </React.Fragment>
-                ))}
-                <br />
-                Edit <code>src/pages/index.js</code> to update this page.
-            </IntroP>
-        </CenteredDiv>
-        <StyledList>
-            {links.map(link => (
-                <li key={link.url} className={styles.listItem}>
-                    <a
-                        className={styles.listItemLink}
-                        href={`${link.url}${utmParameters}`}>
-                        {link.text} ↗
-                    </a>
-                    <p className={styles.listItemDescription}>
-                        {link.description}
-                    </p>
-                </li>
-            ))}
-        </StyledList>
-        {moreLinks.map((link, i) => (
-            <React.Fragment key={link.url}>
-                <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-                {i !== moreLinks.length - 1 && <> · </>}
-            </React.Fragment>
-        ))}
-    </Layout>
+  <Layout>
+    <div class="entry-content">
+      <h1>Home</h1>
+      <p>
+        Langley Aero Structures Ltd is a Transport Canada Approved Maintenance
+        Organization, (AMO 88-04), for the repair and modification of aircraft
+        stressed skin, tubular frame and wood structures. We are also approved
+        as a general maintenance facility for all fixed wing piston and turbine
+        powered aircraft up to 12,500 lbs, plus the entire Beech King Air
+        series, 1900 Airliner Series, Cessna 208 Caravan, Cessna Turboprop
+        twins, Turbo Beaver &amp; Turbo Otter, Twin Otter, Aero Vodochody Czech
+        Republic built L-29 Jet trainers, SIAI Marchetti SM1019 Italian Military
+        Trainer/Observation aircraft, and Robinson R-22 &amp; R-44 Helicopters.
+      </p>
+
+      <p>
+        We are trained and experienced on the following: radial piston engines:
+        P&amp;W, Wright, Kinner, Jacobs, and Continental, Lycoming, Franklin
+        Horizontally Opposed piston engines, Fairchild, and DeHaviland Gypsy
+        Inline engines.
+      </p>
+
+      <p>
+        And in the turbine department: P&amp;W PT6 Series, Honeywell (Garrett),
+        and Rolls Royce (Allison) engines.
+      </p>
+
+      <p>
+        We are also a Transport Canada approved aircraft welding shop for most
+        aerospace metals.
+      </p>
+
+      <p>
+        No job is too big or too small. We specialize in quick turn times for
+        major re-builds and restorations. We also do a lot of imports. We have a
+        great working relationship with a Transport Canada MDM (Ministers
+        designate for Maintenance)for type certificated aircraft, and have
+        substantial experience with Limited Category, Ex- military aircraft
+        directly with Transport Canada. If you have a rare, ex-military,
+        one-of-a-kind aircraft you would like to register in Canada, we can
+        help.
+      </p>
+
+      <p>
+        One of our specialties is re-builds, restorations and general
+        maintenance of Cessna 180/185 aircraft.
+      </p>
+
+      <p>
+        We are located at the Langley Municipal airport, in Langley British
+        Columbia, Western Canada. Airport designator CYNJ.
+      </p>
+
+      <p>
+        We can be reached at 604-530-4077 or{' '}
+        <a href="mailto:info@langleyaero.com">info@langleyaero.com</a>.
+      </p>
+    </div>
+  </Layout>
 );
 
 /**

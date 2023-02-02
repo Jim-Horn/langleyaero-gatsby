@@ -1,11 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "langley-aero",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jim Horn <jim@jdhorn.com>",
   "dependencies": {
-    "@soluto-private/mx-asurion-ui-react": "file:../asurion-ui/asurion-ui-react",
     "babel-plugin-styled-components": "^2.0.7",
     "chalk": "4.1.2",
     "dotenv": "^16.0.3",
@@ -36,8 +35,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "update-aui": "node ./scripts/update-aui"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",

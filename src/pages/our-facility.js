@@ -1,19 +1,14 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
+import hangarPhoto from '../images/Hanger-aerial-BK.jpg';
 
 const SiteMap = ({ data }) => (
   <Layout>
     <h1>Our Facility / Contact Info</h1>
 
     <figure>
-      <img
-        src="http://langleyaero.com/wp-content/uploads/2014/01/Hanger-aerial-BK.jpg"
-        alt="Hanger aerial BK"
-        className="wp-image-188"
-        srcSet="http://www.langleyaero.com/wp-content/uploads/2014/01/Hanger-aerial-BK.jpg 980w, http://www.langleyaero.com/wp-content/uploads/2014/01/Hanger-aerial-BK-300x124.jpg 300w"
-        sizes="(max-width: 980px) 100vw, 980px"
-      />
+      <img src={hangarPhoto} alt="Hanger aerial BK" />
     </figure>
 
     <p>

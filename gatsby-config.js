@@ -42,7 +42,7 @@ const plugins = [
  */
 module.exports = {
   siteMetadata: {
-    title: `Langley Aero Structures`,
+    title: `Langley Aero Structures Ltd`,
     description: `Transport Canada Approved Maintenance Organization Approval #88-04`,
     author: `Jim Horn`,
     siteUrl: `https://langleyaero.com/`,

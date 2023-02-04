@@ -5,7 +5,7 @@ const links = [
   { name: 'Home', href: '/' },
   { name: 'Qualifications', href: '/qualifications' },
   { name: 'Quality Control', href: '/quality-control' },
-  { name: 'Our Facility / Contact Info', href: '/our-facility' },
+  { name: 'Contact Info', href: '/our-facility' },
 ];
 export { links };
 
@@ -13,6 +13,9 @@ const StyledList = styled.ul`
   list-style: none;
   margin: 0;
   display: flex;
+  @media (max-width: var(--transition-width)) {
+    height: 60px;
+  }
 `;
 
 const StyledListItem = styled.li`
@@ -24,6 +27,7 @@ const StyledListItem = styled.li`
     content: '';
     padding: 0;
   }
+
   a {
     text-decoration: none;
     color: inherit;

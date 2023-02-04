@@ -19,6 +19,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -34,17 +35,19 @@ const Layout = ({ children }) => {
     margin-top: var(--space-5);
     font-size: var(--font-sm);
   `;
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header
+        siteTitle={data.site.siteMetadata?.title || `Title`}
+        description={data.site.siteMetadata?.description}
+      />
       <MainDiv>
         <main>{children}</main>
         <StyledFooter>
+          {data.site.siteMetadata?.description}
           <LinksList />
-          <br />© {new Date().getFullYear()} &middot; Built with{' '}
-          <a href="https://www.gatsbyjs.com">Gatsby</a> |{' '}
-          <Link to="/sitemap/">Site Map</Link>
+          <br />© {new Date().getFullYear()} &middot;{' '}
+          {data.site.siteMetadata?.title} | <Link to="/sitemap/">Site Map</Link>
         </StyledFooter>
       </MainDiv>
     </>

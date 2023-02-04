@@ -13,9 +13,6 @@ const StyledList = styled.ul`
   list-style: none;
   margin: 0;
   display: flex;
-  @media (max-width: var(--transition-width)) {
-    height: 60px;
-  }
 `;
 
 const StyledListItem = styled.li`
@@ -31,6 +28,7 @@ const StyledListItem = styled.li`
   a {
     text-decoration: none;
     color: inherit;
+    white-space: nowrap;
     &:hover {
       color: var(--color-primary);
     }
@@ -38,13 +36,19 @@ const StyledListItem = styled.li`
 `;
 
 const LinksList = () => (
-  <StyledList>
-    {links.map(({ href, name }, idx) => (
-      <StyledListItem key={idx}>
-        <Link to={href}>{name}</Link>
-      </StyledListItem>
-    ))}
-  </StyledList>
+  <div
+    style={{
+      maxWidth: '95vw',
+      overflowX: 'scroll',
+    }}>
+    <StyledList>
+      {links.map(({ href, name }, idx) => (
+        <StyledListItem key={idx}>
+          <Link to={href}>{name}</Link>
+        </StyledListItem>
+      ))}
+    </StyledList>
+  </div>
 );
 
 export default LinksList;

@@ -6,7 +6,7 @@
  */
 
 import * as React from 'react';
-import { useStaticQuery, graphql, Script } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 function Seo({ description, title, children }) {
   const { site } = useStaticQuery(
@@ -38,15 +38,6 @@ function Seo({ description, title, children }) {
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
       {children}
-
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-YPNNWRSXGK"
-      />
-      <Script id="analytics">{`window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-YPNNWRSXGK');`}</Script>
     </>
   );
 }

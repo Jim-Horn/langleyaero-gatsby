@@ -23,7 +23,8 @@ const SiteMap = ({ data }) => (
         rel="noreferrer"
         target="_blank">
         Langley Aero Structures Ltd.
-      </a>
+      </a>{' '}
+      (map)
       <br />
       Hangar 8,
       <br />
@@ -40,6 +41,6 @@ const SiteMap = ({ data }) => (
   </Layout>
 );
 
-export const Head = () => <Seo title="Qualifications" />;
+export const Head = () => <Seo title="Contact" />;
 
 export default SiteMap;

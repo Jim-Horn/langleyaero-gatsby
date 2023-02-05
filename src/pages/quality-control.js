@@ -36,6 +36,6 @@ const SiteMap = ({ data }) => (
   </Layout>
 );
 
-export const Head = () => <Seo title="Qualifications" />;
+export const Head = () => <Seo title="Quality Control" />;
 
 export default SiteMap;

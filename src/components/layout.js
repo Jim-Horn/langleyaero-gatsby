@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
   `);
 
   const MainDiv = styled.div`
+    background: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     max-width: var(--size-content);
     padding: var(--size-gutter);

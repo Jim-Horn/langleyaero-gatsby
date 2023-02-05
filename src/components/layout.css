@@ -44,6 +44,8 @@ body {
   font-weight: normal;
   margin: 0;
   word-wrap: break-word;
+  background: url('https://res.cloudinary.com/dxljs3rmp/image/upload/c_crop,dpr_1.3,g_south,o_100,w_1200,f_auto,x_250,y_1100,z_0.9/v1665786089/Langley%20Aero%20Structures/home.jpg');
+  background-size: cover;
 }
 
 a {

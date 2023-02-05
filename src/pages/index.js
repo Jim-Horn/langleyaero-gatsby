@@ -51,12 +51,18 @@ const IndexPage = () => (
     </p>
 
     <p>
-      We are located at the Langley Municipal airport, in Langley British
-      Columbia, Western Canada. Airport designator CYNJ.
+      We are located at the{' '}
+      <a
+        href="https://goo.gl/maps/hguWtRMfqGMvCb1k7"
+        rel="noreferrer"
+        target="_blank">
+        Langley Municipal Airport
+      </a>
+      , in Langley British Columbia, Western Canada. Airport designator CYNJ.
     </p>
 
     <p>
-      We can be reached at 604-530-4077 or{' '}
+      We can be reached at <a href="tel:604-530-4077">604-530-4077</a> or{' '}
       <a href="mailto:info@langleyaero.com">info@langleyaero.com</a>.
     </p>
   </Layout>

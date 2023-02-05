@@ -38,6 +38,7 @@ const StyledDescription = styled.div`
 `;
 
 const StyledHeader = styled.header`
+  background: rgba(255, 255, 255, 0.8);
   max-width: var(--size-content);
   margin: 0 auto;
   padding: var(--space-4) var(--size-gutter);

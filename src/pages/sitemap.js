@@ -8,11 +8,13 @@ const SiteMap = ({ data }) => (
   <Layout>
     <h1>All site pages</h1>
     <ul>
-      {data.allSitePage.edges.map(node => (
-        <li>
-          <Link to={node.node.path}>{node.node.path}</Link>
-        </li>
-      ))}
+      {data.allSitePage.edges
+        .filter(node => !node.node.path.includes('404'))
+        .map(node => (
+          <li>
+            <Link to={node.node.path}>{node.node.path}</Link>
+          </li>
+        ))}
     </ul>
   </Layout>
 );

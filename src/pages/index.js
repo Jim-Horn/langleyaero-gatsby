@@ -39,8 +39,8 @@ const IndexPage = () => (
       No job is too big or too small. We specialize in quick turn times for
       major re-builds and restorations. We also do a lot of imports. We have a
       great working relationship with a Transport Canada MDM (Ministers
-      designate for Maintenance)for type certificated aircraft, and have
-      substantial experience with Limited Category, Ex- military aircraft
+      designate for Maintenance) for type certificated aircraft, and have
+      substantial experience with Limited Category, Ex-military aircraft
       directly with Transport Canada. If you have a rare, ex-military,
       one-of-a-kind aircraft you would like to register in Canada, we can help.
     </p>

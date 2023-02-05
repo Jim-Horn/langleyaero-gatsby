@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
 import LinksList from './links';
-import logo from '../images/las-logo.jpeg';
+import logo from '../images/las-logo.png';
 import styled from 'styled-components';
 
 const transitionWidth = '675px';

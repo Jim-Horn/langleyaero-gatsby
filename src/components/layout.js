@@ -6,7 +6,7 @@
  */
 
 import * as React from 'react';
-import { useStaticQuery, graphql, Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 import LinksList from './links';
 
@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
           {data.site.siteMetadata?.description}
           <LinksList />
           <br />© {new Date().getFullYear()} &middot;{' '}
-          {data.site.siteMetadata?.title} | <Link to="/sitemap/">Site Map</Link>
+          {data.site.siteMetadata?.title}
         </StyledFooter>
       </MainDiv>
     </>

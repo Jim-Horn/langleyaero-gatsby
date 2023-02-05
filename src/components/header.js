@@ -12,16 +12,19 @@ const LogoBox = styled.div`
   }
   display: flex;
   flex-direction: column;
+  align-items: center;
   img {
     height: 80px;
+    width: 135.5932203px;
     margin: 0;
     @media (max-width: ${transitionWidth}) {
       height: 60px;
+      width: 101.6949153px;
     }
   }
   span {
     margin-top: 0.25rem;
-    font-size: var(--font-sm);
+    font-size: var(--font-sx);
     font-weight: bold;
     white-space: nowrap;
   }

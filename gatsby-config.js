@@ -15,10 +15,10 @@ const plugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `gatsby-starter-default`,
-      short_name: `starter`,
+      name: `Langley Aero Structures`,
+      short_name: `LAS`,
       start_url: `/`,
-      background_color: `#663399`,
+      background_color: `#FFFFFF`,
       // This will impact how browsers show your PWA/website
       // https://css-tricks.com/meta-theme-color-and-trickery/
       // theme_color: `#663399`,

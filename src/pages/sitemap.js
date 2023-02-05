@@ -1,36 +1,16 @@
 import * as React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout';
 import Seo from '../components/seo';
-import { Link } from 'gatsby';
+import SiteMap from '../components/sitemap';
 
-const SiteMap = ({ data }) => (
+const SiteMapPage = () => (
   <Layout>
     <h1>All site pages</h1>
-    <ul>
-      {data.allSitePage.edges
-        .filter(node => !node.node.path.includes('404'))
-        .map(node => (
-          <li>
-            <Link to={node.node.path}>{node.node.path}</Link>
-          </li>
-        ))}
-    </ul>
+    <SiteMap />
   </Layout>
 );
 
-export const query = graphql`
-  query {
-    allSitePage(sort: { path: ASC }) {
-      edges {
-        node {
-          path
-        }
-      }
-    }
-  }
-`;
-
 export const Head = () => <Seo title="Site Map" />;
 
-export default SiteMap;
+export default SiteMapPage;

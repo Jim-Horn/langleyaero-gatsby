@@ -1,7 +1,7 @@
 {
   "name": "langley-aero",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "",
   "version": "0.1.0",
   "author": "Jim Horn <jim@jdhorn.com>",
   "dependencies": {
@@ -40,9 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Jim-Horn/langleyaero-gatsby"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Jim-Horn/langleyaero-gatsby/issues"
   }
 }

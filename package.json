@@ -5,25 +5,25 @@
   "version": "0.1.0",
   "author": "Jim Horn <jim@jdhorn.com>",
   "dependencies": {
-    "babel-plugin-styled-components": "^2.0.7",
-    "chalk": "4.1.2",
+    "babel-plugin-styled-components": "^2.1.1",
+    "chalk": "5.2.0",
     "dotenv": "^16.0.3",
-    "gatsby": "^5.4.2",
-    "gatsby-plugin-google-tagmanager": "^5.5.0",
-    "gatsby-plugin-image": "^3.5.0",
-    "gatsby-plugin-manifest": "^5.4.0",
-    "gatsby-plugin-sharp": "^5.8.1",
-    "gatsby-plugin-styled-components": "^6.5.0",
-    "gatsby-source-contentful": "^8.5.0",
-    "gatsby-source-filesystem": "^5.4.0",
-    "gatsby-transformer-sharp": "^5.4.0",
+    "gatsby": "^5.9.0",
+    "gatsby-plugin-google-tagmanager": "^5.9.0",
+    "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-manifest": "^5.9.0",
+    "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-plugin-styled-components": "^6.9.0",
+    "gatsby-source-contentful": "^8.9.1",
+    "gatsby-source-filesystem": "^5.9.0",
+    "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6",
+    "styled-components": "^5.3.10",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.8"
   },
   "keywords": [
     "gatsby"

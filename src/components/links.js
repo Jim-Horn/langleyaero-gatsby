@@ -20,7 +20,7 @@ const StyledListItem = styled.li`
     content: '|';
     padding: 0 0.5rem;
   }
-  :last-of-type::after {
+  &:last-of-type::after {
     content: '';
     padding: 0;
   }

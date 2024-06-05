@@ -8,22 +8,22 @@
     "babel-plugin-styled-components": "^2.1.4",
     "chalk": "5.3.0",
     "dotenv": "^16.4.5",
-    "gatsby": "^5.13.4",
+    "gatsby": "^5.13.6",
     "gatsby-plugin-google-tagmanager": "^5.13.1",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-styled-components": "^6.13.1",
-    "gatsby-source-contentful": "^8.13.1",
+    "gatsby-source-contentful": "^8.13.2",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.9",
+    "styled-components": "^6.1.11",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.3.1"
   },
   "keywords": [
     "gatsby"

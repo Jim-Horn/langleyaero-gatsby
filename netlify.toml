@@ -4,3 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-gatsby"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"

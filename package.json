@@ -6,7 +6,7 @@
   "author": "Jim Horn <jim@jdhorn.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^2.3.0",
-    "chalk": "6.0.0",
+    "chalk": "6.0.1",
     "dotenv": "^17.4.2",
     "gatsby": "^5.16.1",
     "gatsby-plugin-google-tagmanager": "^5.16.0",
@@ -19,11 +19,11 @@
     "gatsby-transformer-sharp": "^5.16.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.4.4",
+    "styled-components": "^6.5.3",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "prettier": "^3.9.6"
+    "prettier": "^3.9.9"
   },
   "keywords": [
     "gatsby"
